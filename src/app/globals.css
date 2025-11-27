@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-dark: #1c1c1c;
+  --color-primary: #c21807;
+  --color-accent: #d9b24a;
+  --color-destructive: #9b1e1e;
+  --font-sans: var(--font-dm-sans);
+}
+
+.btn-primary {
+  @apply rounded-full bg-primary hover:bg-primary/50 text-white flex items-center gap-2 hover:scale-105 cursor-pointer text-center transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply rounded-full hover:bg-primary/10 border-primary border text-center cursor-pointer hover:scale-105 transition-all duration-300;
 }

@@ -9,7 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "FLUVON TV",
+  title: "Fluvon TV",
   description:
     "Plataforma de lives pagas da GermaTech, para criadores de conteúdo.",
 };
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-PT">
       <body
-        className={`${dmSans.variable} antialiased`}>
+        className={`${dmSans.variable} antialiased bg-dark`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
