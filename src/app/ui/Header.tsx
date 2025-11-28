@@ -19,7 +19,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full flex items-center justify-center py-4 fixed top-0 left-0">
+    <header className="w-full flex items-center justify-center py-4 fixed top-0 left-0 z-50">
       <nav className="w-full max-w-7xl flex items-center justify-between gap-4 bg-white/5 backdrop-blur-sm px-8 py-3 rounded-full">
         <Link href={"/"}>
           <Image
@@ -61,7 +61,7 @@ export default function Header() {
 
             <Link
               href={"/register/creator"}
-              className="btn-primary px-4 py-2 min-w-36">
+              className="btn-primary px-4 py-2 min-w-36 ">
               Sou criador
             </Link>
           </div>
